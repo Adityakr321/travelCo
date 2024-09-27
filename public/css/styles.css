@@ -1,0 +1,241 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+header {
+    background-image: url('/assets/backgrounimage.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    min-height: 600px;
+    position: relative;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.773);
+    position: fixed;
+    width: 98%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav .nav-links li {
+    display: inline;
+}
+
+nav .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    padding: 0 20px;
+    background: rgba(0, 0, 0, 0.284);
+}
+
+.main h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.main p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    text-decoration: none;
+    background-color: #ff6347;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff4500;
+}
+
+.about-section,
+.contact-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-section h2,
+.contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-section p,
+.contact-section p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.destinations-section {
+    padding: 60px 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.destinations-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.destinations-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.destination-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: left;
+}
+
+.destination-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.destination-card h3 {
+    font-size: 24px;
+    margin: 15px;
+}
+
+.destination-card p {
+    font-size: 16px;
+    margin: 0 15px 15px 15px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+header {
+   
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    min-height: 600px;
+    position: relative;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.773);
+    position: fixed;
+    width: 98%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav .nav-links li {
+    display: inline;
+}
+
+nav .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    padding: 0 20px;
+    background: rgba(0, 0, 0, 0.284);
+}
+
+.main h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.main p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-button, .registration-button {
+    text-decoration: none;
+    background-color: #ff6347;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+.cta-button:hover, .registration-button:hover {
+    background-color: #ff4500;
+}

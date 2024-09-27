@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Details</title>
+    <link rel="stylesheet" href="/css/styles5.css">
+</head>
+<body>
+    <div class="container">
+        <h2>All Registrations</h2>
+        <table border="1" class="table">
+            <thead>
+                <tr>
+                    <th>Full Name</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                    <th>Preferred Destination</th>
+                    <th>Number of Adults</th>
+                    <th>Number of Children</th>
+                    <th>Special Requests</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% registrationsList.forEach(function(registration) { %>
+                <tr>
+                    <td><%= registration.Name %></td>
+                    <td><%= registration.Email %></td>
+                    <td><%= registration.Phone %></td>
+                    <td><%= registration.preferredDestination %></td>
+                    <td><%= registration.numberOfAdults %></td>
+                    <td><%= registration.numberOfChildren %></td>
+                    <td><%= registration.SpecialRequests %></td>
+                </tr>
+                <% }); %>
+            </tbody>
+        </table>
+
+        <% if (registrationsList.length === 0) { %>
+            <p>No registrations found.</p>
+        <% } %>
+    </div>
+</body>
+</html>

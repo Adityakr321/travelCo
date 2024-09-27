@@ -1,0 +1,101 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #f4a261;
+}
+
+.logo {
+    font-size: 24px;
+    margin-left: 20px;
+    float: left;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+/* Thank You section styles */
+.thank-you-section {
+    text-align: center;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: white;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.thank-you-section h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.thank-you-section p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.thank-you-section .btn {
+    background-color: #f4a261;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.thank-you-section .btn:hover {
+    background-color: #e76f51;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    font-size: 14px;
+}

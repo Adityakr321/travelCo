@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelCo | Explore the World</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">TravelCo</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="/registration">Register</a></li>
+            </ul>
+            <!-- Search form for finding registrations by email -->
+            <form action="/search-registration" method="GET" class="nav-search-form">
+                <input type="email" name="email" placeholder="Search Registration" required>
+                <button type="submit">Search</button>
+            </form>
+        </nav>
+        <div class="main">
+            <h1>Explore the World with TravelCo</h1>
+            <p>Your adventure starts here. Discover new places, cultures, and experiences.</p>
+            <a href="#destinations" class="cta-button">Discover Now</a>
+            <a href="/registration" class="cta-button registration-button">Register Now</a>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>At TravelCo, we believe that travel is more than just visiting new places. It's about experiencing the beauty of the world, immersing yourself in different cultures, and creating memories that last a lifetime.</p>
+    </section>
+
+    <section id="destinations" class="destinations-section">
+        <h2>Popular Destinations</h2>
+        <div class="destinations-grid">
+            <div class="destination-card">
+                <img src="/assets/paris.jpg" alt="Paris">
+                <h3>Paris</h3>
+                <p>The City of Light awaits you. Experience the romance and history of Paris.</p>
+            </div>
+            <div class="destination-card">
+                <img src="/assets/bali.jpg" alt="Bali">
+                <h3>Bali</h3>
+                <p>Relax on the beautiful beaches and explore the rich culture of Bali.</p>
+            </div>
+            <!-- <div class="destination-card">
+                <img src="/assets/newyork.jpg" alt="New York">
+                <h3>New York</h3>
+                <p>The city that never sleeps. Discover the excitement of New York City.</p>
+            </div> -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <!-- <p>Ready to start your journey? Contact us today to plan your next adventure.</p> -->
+        <a href="/contact" class="cta-button">Contact Us</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TravelCo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
