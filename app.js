@@ -41,7 +41,7 @@ const registerSchema = new mongoose.Schema({
 const Registration = mongoose.model('Registration', registerSchema);
 
 
-app.get("/home",function(req,res){
+app.get("/",function(req,res){
     res.render("home");
 })
 
